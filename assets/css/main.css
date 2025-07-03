@@ -1,0 +1,89 @@
+
+/* -------------------- */
+/*      Root Theme      */
+/* -------------------- */
+:root {
+    --text-color: #ecedf1;
+    --heading-shadow: #35383f;
+    --background-color: #404a65;
+    --btn-background: #206fb1;
+    --btn-shadow: #23649b;
+}
+
+/* -------------------- */
+/*    Base Styles       */
+/* -------------------- */
+/* Universal Tag */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    border: none;
+    transition: all 0.3s ease-in-out;
+}
+/* Body container */
+body {
+    font-family: sans-serif, Arial, Helvetica;
+
+    color: var(--text-color);
+    background-color: var(--background-color);
+
+    min-width: 370px;
+}
+
+/* Container for main */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    padding-top: 4.9375rem;
+}
+/* Container for Heading */
+.heading {
+    font-size: 3.4rem;
+    font-weight: 900;
+
+    text-shadow: 2px 2px 0px var(--heading-shadow);
+    -webkit-text-stroke-width: 5px;
+    -webkit-text-stroke-color: var(--heading-shadow);
+
+}
+/* Container for para(Press the coin or the button to flip the coin) */
+.para {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-top: 1.75rem;
+    line-height: 2em;
+    padding: 0px 0.4167em;
+}
+/* Container for image */
+.imgContainer {
+    padding-top: 4.625rem;
+}
+/* Container for Shadow */
+.shadowContainer {
+    padding-top: 2.5rem;
+    padding-bottom: 3.3125rem;
+}
+/* Result Container */
+.resultContainer {
+    font-size: 1.2rem;
+}
+
+/* ---------------- */
+/*      Button      */
+/* ---------------- */
+button {
+    font-weight: 600;
+    color: var(--text-color);
+    background-color: var(--btn-background);
+
+    padding: 1em 2.3125em;
+    margin-top: 4.375rem;
+
+    box-shadow: 0px 4px 0px 0px var(--btn-shadow);
+    border-radius: 5px;
+}
