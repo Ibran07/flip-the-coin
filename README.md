@@ -14,8 +14,6 @@ A simple interactive web app that flips a coin and displays the result with an a
 
 ---
 
----
-
 ## 🧠 How It Works
 
 - The coin is represented by an `<img>` tag.
