@@ -87,3 +87,30 @@ button {
     box-shadow: 0px 4px 0px 0px var(--btn-shadow);
     border-radius: 5px;
 }
+
+/* ------------------------ */
+/*       Responsive         */
+/* ------------------------ */
+@media (min-width: 1200px) {
+    img {
+        width: 8rem;
+        height: auto;
+    }
+
+    main {
+        padding-top: 3rem;
+    }
+
+    .imgContainer {
+        padding-top: 2.5rem;
+    }
+
+    .shadowContainer {
+        padding-top: 1.5rem;
+        padding-bottom: 1.7rem;
+    }
+
+    button {
+        margin-top: 2.375rem;
+    }
+}
