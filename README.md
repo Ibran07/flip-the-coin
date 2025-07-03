@@ -47,5 +47,5 @@ This project is designed to work on:
 ## 🔗 Live Demo
 
 👉 **Click here to view the live demo**
-**https://Ibran07.github.io/flip-the-coin/**
+**(https://ibran07.github.io/flip-the-coin/)**
 
