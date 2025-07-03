@@ -62,6 +62,11 @@ main {
 /* Container for image */
 .imgContainer {
     padding-top: 4.625rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 /* Container for Shadow */
 .shadowContainer {
@@ -113,4 +118,24 @@ button {
     button {
         margin-top: 2.375rem;
     }
+}
+
+@keyframes flipUpsideDown {
+  to {
+    transform: rotateX(0deg);
+  }
+  from {
+    transform: rotateX(1800deg);
+  }
+}
+
+.coin {
+  width: 150px;
+  height: 150px;
+  transition: transform 0.5s ease;
+  transform-style: preserve-3d;
+}
+
+.flipping {
+  animation: flipUpsideDown 3s ease-in-out forwards;
 }
